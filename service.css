@@ -1,0 +1,203 @@
+ /* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+ 
+ img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ /* Header and Navigation Bar */
+ .header {
+    background-color: #333;
+    padding: 10px 20px;
+ }
+ 
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .logo img {
+    max-height: 50px;
+ }
+ 
+ .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .nav-links li {
+    margin: 0 15px;
+ }
+ 
+ .nav-links a {
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+ }
+ 
+ .nav-links a:hover {
+    color: #00bcd4;
+ }
+ 
+ /* Page Title */
+ .page-title {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+ }
+ 
+ .page-title h1 {
+    font-size: 2.5rem;
+    color: #333;
+ }
+ 
+ .page-title p {
+    font-size: 1.2rem;
+    color: #666;
+ }
+ 
+ /* Services Section */
+ .services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #fff;
+ }
+ 
+ .service-item {
+    max-width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f9f9f9;
+ }
+ 
+ .service-item img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+ }
+ 
+ .service-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+ }
+ 
+ .service-item p {
+    color: #666;
+    font-size: 1rem;
+ }
+ 
+ /* Footer */
+ .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 768px) {
+    .services {
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .service-item {
+       max-width: 80%;
+       margin-bottom: 20px;
+    }
+ }
+/* General Styles for Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    max-width: 300px;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+}
+ 
+/* General styles for the button */
+.order-btn-container .btn {
+    background-color: #110310; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* Ensures button does not stretch */
+    width: auto; /* Width adjusts to content */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on the button */
+.order-btn-container .btn:hover {
+    background-color: #000000; /* Darker button color on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+/* Button focus style */
+.order-btn-container .btn:focus {
+    outline: 2px solid #000000;
+}
+
+/* Responsive styling for the button */
+@media (max-width: 768px) {
+    .order-btn-container .btn {
+        width: 100%; /* Button will take full width on smaller screens */
+    }
+}

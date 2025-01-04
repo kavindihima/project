@@ -1,0 +1,127 @@
+/* General styles */
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/123.png') no-repeat center center fixed;
+    background-size:contain; /* Ensures the image covers the entire screen */
+    background-color:#000000(245, 240, 234);
+
+ }
+ 
+ /* Navbar styles */
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+ }
+ 
+ .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ 
+ .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .nav-links li {
+    margin: 0 15px;
+ }
+ 
+ .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+
+ }
+ 
+ .nav-links a:hover {
+    color: #00bcd4;
+    font-size: 50px;
+ }
+ 
+ /* Burger menu styles for mobile view */
+ .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+ }
+ 
+ .burger div {
+    width: 25px;
+    height: 9px;
+    background-color: white;
+    margin: 4px;
+    transition: all 0.3s ease;
+ }
+ 
+ /* Responsive styles */
+ @media (max-width: 768px) {
+    .nav-links {
+       display: none;
+       flex-direction: column;
+       background-color: #333;
+       position: absolute;
+       top: 60px;
+       right: 0;
+       width: 100%;
+       text-align: center;
+    }
+ 
+    .nav-links.active {
+       display: flex;
+    }
+ 
+    .burger {
+       display: flex;
+    }
+ }
+ .burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.burger .line1,
+.burger .line2,
+.burger .line3 {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #333;
+        width: 200px;
+        height: 800px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .navbar .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+     
+}
