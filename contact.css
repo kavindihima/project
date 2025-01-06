@@ -1,139 +1,69 @@
+ /* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #758eff;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    color: #333;
 }
 
-header {
-    background-color: #333;
+/* Page title styling */
+.page-title {
+    text-align: center;
+    background-color:  #333;
     color: white;
-    text-align: center;
     padding: 20px;
-}
-
-h1 {
-    margin: 0;
-}
-
-.contact-info {
-    width: 60%;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info h2 {
-    text-align: center;
-}
-
-.contact-detail {
     margin-bottom: 20px;
 }
 
-.contact-detail h3 {
+.page-title h1 {
+    font-size: 36px;
     margin: 0;
-    font-size: 18px;
-    color: #333;
 }
 
-.contact-detail p {
+.page-title p {
+    font-size: 18px;
     margin: 5px 0;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 15px auto;
+    max-width: 800px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Special note at the end */
+p:last-of-type {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* Signature section styling */
+p:nth-last-of-type(4), p:nth-last-of-type(3), p:nth-last-of-type(2), p:nth-last-of-type(1) {
     font-size: 16px;
     color: #555;
+    text-align: left;
+    margin-top: 30px;
 }
 
-.contact-detail a {
-    color: #333;
-    text-decoration: none;
-}
-
-.contact-detail a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
-
-footer p {
-    margin: 0;
-}
-/* Footer */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    margin-top: 20px;
- }
- 
- /* Responsive Design */
- @media (max-width: 768px) {
-    .services {
-       flex-direction: column;
-       align-items: center;
-    }
- 
-    .service-item {
-       max-width: 80%;
-       margin-bottom: 20px;
-    }
- }
-/* General Styles for Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.footer-section {
-    max-width: 300px;
-    padding: 20px;
-}
-
-.footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.footer-section p, .footer-section ul {
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.footer-section a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-section a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Bottom */
-.footer-bottom {
-    margin-top: 20px;
-    font-size: 12px;
-}
-
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
+    .page-title h1 {
+        font-size: 28px;
+    }
+
+    .page-title p {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 8px;
     }
 }
- 

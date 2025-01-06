@@ -4,9 +4,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('images/123.png') no-repeat center center fixed;
-    background-size:contain; /* Ensures the image covers the entire screen */
-    background-color:#000000(245, 240, 234);
+    background: url('images/renty1.png') no-repeat center center fixed;
+    background-size:cover; /* Ensures the image covers the entire screen */
+    background-color:#070b20(245, 240, 234);
 
  }
  
@@ -15,12 +15,12 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: #94e1ff;
     padding: 10px 20px;
  }
  
  .logo {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: bold;
  }
@@ -38,15 +38,15 @@ body, html {
  
  .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     transition: color 0.3s;
 
  }
  
  .nav-links a:hover {
-    color: #00bcd4;
-    font-size: 50px;
+    color: #000000;
+   
  }
  
  /* Burger menu styles for mobile view */

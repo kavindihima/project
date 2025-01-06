@@ -54,14 +54,14 @@ body, html {
  
  /* Page Title */
  .page-title {
-    background-color: #f4f4f4;
+    background-color: #969393;
     text-align: center;
     padding: 40px 20px;
  }
  
  .page-title h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #221f1f;
  }
  
  .page-title p {
@@ -76,7 +76,7 @@ body, html {
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: #758eff;
  }
  
  .service-item {
@@ -90,12 +90,12 @@ body, html {
  
  .service-item img {
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
  }
  
  .service-item h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #000000;
  }
  
  .service-item p {
@@ -126,8 +126,8 @@ body, html {
  }
 /* General Styles for Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #636363;
+    color: #3b3b3b;
     padding: 40px 0;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -172,7 +172,7 @@ footer {
  
 /* General styles for the button */
 .order-btn-container .btn {
-    background-color: #110310; /* Button color */
+    background-color: #1f051d; /* Button color */
     color: white; /* Text color */
     padding: 10px 20px;
     font-size: 16px;
@@ -186,7 +186,7 @@ footer {
 
 /* Hover effect on the button */
 .order-btn-container .btn:hover {
-    background-color: #000000; /* Darker button color on hover */
+    background-color: #040a41; /* Darker button color on hover */
     transform: scale(1.05); /* Slight scaling effect on hover */
 }
 

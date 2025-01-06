@@ -17,40 +17,58 @@
     
    <div class="service-item">
       <div class="order-btn-container">
-         <img src="images/wagon1.jpg" alt="Service 2">
-         <h3>Wagon R</h3>
+         <img src="images/minicar.jpg" alt="Service 2">
+         <h3>flex</h3>
       <button class="btn" onclick="redirectToLogin()">Book Now</button> <!-- Button Outside Navbar -->
-         <p>characterstics can show here</p>
+         <p>Price:Rs.7000.00 per day</p>
+         <p>Persons:3</p>
+
       </div>
 </div>
 
 
       <div class="service-item">
       <div class="order-btn-container">
-         <img src="images/wagon1.jpg" alt="Service 2">
-         <h3>Wagon R</h3>
+         <img src="images/car31.jpg" alt="Service 2">
+         <h3>Mini Car</h3>
       <button class="btn" onclick="redirectToLogin()">Book Now</button> <!-- Button Outside Navbar -->
-         <p>characterstics can show here</p>
+      <p>Price:Rs.7000.00 per day</p>
+         <p>Persons:3</p>
+
       </div>
 </div>
 
 
 <div class="service-item">
       <div class="order-btn-container">
-         <img src="images/wagon1.jpg" alt="Service 2">
-         <h3>Wagon R</h3>
+         <img src="images/car31.jpg" alt="Service 2">
+         <h3>Car</h3>
       <button class="btn" onclick="redirectToLogin()">Book Now</button> <!-- Button Outside Navbar -->
-         <p>characterstics can show here</p>
+      <p>Price:Rs.7000.00 per day</p>
+         <p>Persons:4</p>
+
       </div>
 </div>
 
 
 <div class="service-item">
       <div class="order-btn-container">
-         <img src="images/wagon1.jpg" alt="Service 2">
-         <h3>Wagon R</h3>
+         <img src="images/minivan.jpg" alt="Service 2">
+         <h3>Mini Van</h3>
       <button class="btn" onclick="redirectToLogin()">Book Now</button> <!-- Button Outside Navbar -->
-         <p>characterstics can show here</p>
+      <p>Price:Rs.7000.00 per day</p>
+         <p>Persons:5</p>
+
+      </div>
+</div>
+
+<div class="service-item">
+      <div class="order-btn-container">
+         <img src="images/van.png" alt="Service 2">
+         <h3>Van</h3>
+      <button class="btn" onclick="redirectToLogin()">Book Now</button> <!-- Button Outside Navbar -->
+      <p>Price:Rs.7000.00 per day</p>
+      <p>Persons:10</p>
       </div>
 </div>
 </section>
@@ -70,31 +88,6 @@
 
 
     
-<footer class="footer">
-   <div class="footer-container">
-      <div class="footer-section">
-         <h3>About Us</h3>
-         <p>We are a leading company providing top-notch services to our clients.</p>
-      </div>
-      <div class="footer-section">
-         <h3>Quick Links</h3>
-         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="services.php">Services</a></li>
-            <li><a href="contact.php">Contact</a></li>
-         </ul>
-      </div>
-      <div class="footer-section">
-         <h3>Contact Us</h3>
-         <p>Phone: +123 456 7890</p>
-         <p>Email: info@mywebsite.com</p>
-         <p>Address: 1234 Some Street, City, Country</p>
-      </div>
-   </div>
-   <div class="footer-bottom">
-      <p>&copy; 2024 MyWebsite. All rights reserved.</p>
-   </div>
-</footer>
  
 
 
