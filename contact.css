@@ -1,17 +1,17 @@
  /* General body styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #758eff;
+    background-color: #000000;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #ffffff;
 }
 
 /* Page title styling */
 .page-title {
     text-align: center;
-    background-color:  #333;
-    color: white;
+    background-color:  #000000;
+    color: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -33,21 +33,21 @@ p {
     margin: 15px auto;
     max-width: 800px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 /* Special note at the end */
 p:last-of-type {
     font-weight: bold;
-    color: #d9534f;
+    color: #ff1a13;
 }
 
 /* Signature section styling */
 p:nth-last-of-type(4), p:nth-last-of-type(3), p:nth-last-of-type(2), p:nth-last-of-type(1) {
     font-size: 16px;
-    color: #555;
+    color: #dd0e0e;
     text-align: left;
     margin-top: 30px;
 }
