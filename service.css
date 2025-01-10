@@ -66,7 +66,7 @@ body, html {
  
  .page-title p {
     font-size: 1rem;
-    color: #e0dada62;
+    color: #ffffffd5;
  }
  
  /* Services Section */
@@ -90,7 +90,7 @@ body, html {
  }
  
  .service-item img {
-   box-shadow: 0 4px 8px rgb(14, 239, 255);
+   box-shadow: 0 4px 8px rgb(255, 255, 255);
     border-radius: 5px;
     margin-bottom: 10px;
  }
@@ -101,7 +101,7 @@ body, html {
  }
  
  .service-item p {
-    color: #666;
+    color: #ffffff;
     font-size: 1rem;
  }
  
