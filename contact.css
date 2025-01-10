@@ -41,13 +41,13 @@ p {
 /* Special note at the end */
 p:last-of-type {
     font-weight: bold;
-    color: #ff1a13;
+    color: #ffffff;
 }
 
 /* Signature section styling */
 p:nth-last-of-type(4), p:nth-last-of-type(3), p:nth-last-of-type(2), p:nth-last-of-type(1) {
     font-size: 16px;
-    color: #dd0e0e;
+    color: #ffffff;
     text-align: left;
     margin-top: 30px;
 }
